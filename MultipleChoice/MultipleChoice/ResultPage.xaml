@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="#20333a"
+             x:Class="MultipleChoice.ResultPage">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout Padding="20,10,20,10">
+
+            <Image Margin="0,60,0,0" x:Name="aspaiteIcon" Source="congrats.jpg" Aspect="AspectFit"    />
+            <StackLayout Margin="0,40,0,40"  Padding="0,100,0,100" BackgroundColor="#000">
+       
+                <Label x:Name="TextResult" Font="Large"   BackgroundColor="#535151" TextColor="White" Text="Τελικό αποτέλεσμα" Padding="4,4,4,4"
+                HorizontalOptions="CenterAndExpand" />
+            
+
+                <Label x:Name="Result" Text="test" Font="Bold, Large"  TextColor="White" Margin="0,30,0,0"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+                <Label x:Name="Percentage" Text="test" Font="Bold, Large"  TextColor="White"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            </StackLayout>
+
+            <StackLayout  Orientation="Horizontal" VerticalOptions="EndAndExpand">
+                <Button x:Name="Answers" Text="Βρες τις σωστές απαντήσεις" BackgroundColor="#006C64"  HorizontalOptions="Start"  TextTransform="None" TextColor="#fff" Font="Italic,15" Clicked="Answers_Clicked"/>
+                <Button x:Name="Menu" Text="Αρχικό Μενού" BackgroundColor="#006C64"  HorizontalOptions="EndAndExpand"  TextTransform="None" TextColor="#fff" Font="Italic,15" Clicked="Menu_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

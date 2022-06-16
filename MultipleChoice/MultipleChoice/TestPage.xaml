@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="#20333a"
+             x:Class="MultipleChoice.TestPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10,10,10,10">
+                <Label  x:Name="Question" Text="test" TextColor="#fff" Font="Bold,25"  VerticalOptions="CenterAndExpand"
+            
+                HorizontalOptions="CenterAndExpand" />
+
+                <StackLayout HorizontalOptions = "CenterAndExpand" Orientation="Vertical" VerticalOptions="StartAndExpand">
+                    <Button   x:Name="Answer1" Text="test" TextTransform="None" TextColor="#fff" BackgroundColor="#535151" Font="Italic,20" Clicked="Answer1_Clicked">
+                       
+                    </Button>
+                    
+                    <Button x:Name="Answer2" Text="test" TextTransform="None" TextColor="#fff" BackgroundColor="#535151" Font="Italic,20" Clicked="Answer2_Clicked">
+                        <!--
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Normal">
+                                    <VisualState.Setters>
+                                        <Setter Property="BackgroundColor" Value="#535151" />
+                                    </VisualState.Setters>
+                                </VisualState>
+                                <VisualState x:Name="Pressed">
+                                    <VisualState.Setters>
+                                        <Setter Property="BackgroundColor" Value="Red" />
+                                    </VisualState.Setters>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups> -->
+                    </Button>
+                    
+                    <Button x:Name="Answer3" Text="test" TextTransform="None" TextColor="#fff" BackgroundColor="#535151" Font="Italic,20" Clicked="Answer3_Clicked">
+                        <!--
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Normal">
+                                    <VisualState.Setters>
+                                        <Setter Property="BackgroundColor" Value="#535151" />
+                                    </VisualState.Setters>
+                                </VisualState>
+                                <VisualState x:Name="Pressed">
+                                    <VisualState.Setters>
+                                        <Setter Property="BackgroundColor" Value="Red" />
+                                    </VisualState.Setters>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups> -->
+                    </Button>
+
+                    <Button x:Name="Answer4" Text="test" TextTransform="None" TextColor="#fff" BackgroundColor="#535151" Font="Italic,20" Clicked="Answer4_Clicked">
+                        <!--
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Normal">
+                                    <VisualState.Setters>
+                                        <Setter Property="BackgroundColor" Value="#535151" />
+                                    </VisualState.Setters>
+                                </VisualState>
+                                <VisualState x:Name="Pressed">
+                                    <VisualState.Setters>
+                                        <Setter Property="BackgroundColor" Value="Red" />
+                                    </VisualState.Setters>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups> -->
+                    </Button>
+                </StackLayout>
+
+                
+
+                <StackLayout  Orientation="Horizontal" VerticalOptions="End">
+                    <Button x:Name="Back" Text="Aρχικό μενού" BackgroundColor="#006C64"  HorizontalOptions="Start" VerticalOptions="End" TextTransform="None" TextColor="#fff" Font="Italic,15" Clicked="Back_Clicked"/>
+                    <Button x:Name="Submit" Text="Υποβολή" IsVisible="False" BackgroundColor="Red"  HorizontalOptions="EndAndExpand"  TextTransform="None" TextColor="#fff" Font="Italic,15" Clicked="Submit_Clicked"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

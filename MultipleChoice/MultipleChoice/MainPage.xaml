@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundImage="backgroundImage.jpg"
+            
+             x:Class="MultipleChoice.MainPage">
+
+    <ScrollView>
+        <StackLayout x:Name="WelcomIcn" VerticalOptions="CenterAndExpand" Padding="20,20,20,20">
+
+            <Image x:Name="aspaiteIcon" Source="aspaiteImage.jpg" Aspect="AspectFit"  VerticalOptions="Start" HeightRequest="150" />
+
+            <Image x:Name="welcomeIcon" Source="frontImage.png" Aspect="AspectFit"  HorizontalOptions="Center" HeightRequest="280" WidthRequest="280" />
+            <Button   Text="Στόχοι Ενότητας" TextTransform="None" x:Name="aimsButtn" BackgroundColor="#20333a" TextColor="White" FontSize="Large" 
+                    HorizontalOptions="CenterAndExpand" Clicked="aimsButtn_Clicked"/>
+            <Button   Text="Ξεκίνα το τεστ" TextTransform="None" x:Name="beginTestButtn" BackgroundColor="#296965" TextColor="White" FontSize="Large" Margin ="0,10,0,0" 
+                     HorizontalOptions="CenterAndExpand" Clicked="beginTestButtn_Clicked"/>
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

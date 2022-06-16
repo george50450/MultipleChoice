@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="#20333a"
+             x:Class="MultipleChoice.AimPage">
+    <ContentPage.Content>
+
+        <ScrollView>
+            <StackLayout  >
+                <Label x:Name="Class" Margin="10,20,10,0" Padding="4,4,4,4" BackgroundColor="Black" HorizontalOptions="CenterAndExpand"  Text="Τάξη: Α' ΓΥΜΝΑΣΙΟΥ"   TextTransform="None" TextColor="#fff" Font="Bold,20"/>
+                <Label x:Name="Lesson" Margin="10,20,10,0" Padding="4,4,4,4" BackgroundColor="#535151" HorizontalOptions="CenterAndExpand"  Text="Μάθημα"   TextTransform="None" TextColor="#fff" Font="Italic,20"/>
+                <Label x:Name="Lesson_name" Margin="10,0,10,0" HorizontalOptions="CenterAndExpand"  Text="Αγγλικά"   TextTransform="None" TextColor="#fff" Font="Bold,18"/>
+
+                <Label x:Name="Chapter" Margin="10,10,10,0" Padding="4,4,4,4" BackgroundColor="#535151" HorizontalOptions="CenterAndExpand"  Text="Διδακτική Ενότητα"   TextTransform="None" TextColor="#fff" Font="Italic,20"/>
+                <Label x:Name="Chapter_name" Margin="10,0,10,0"  HorizontalOptions="CenterAndExpand"  Text="Lesson 3 This is my job!"   TextTransform="None" TextColor="#fff" Font="Bold,18"/>
+
+                <StackLayout  Orientation="Vertical"  >
+
+                    <Label x:Name="Tale" Padding="10,40,10,0"  Text="Μετά την ολοκλήρωση της διδασκαλίας οι εκπαιδευόμενοι πρέπει να είναι ικανοί: "   TextTransform="None" TextColor="#fff" Font="Bold,20"/>
+                    <Label x:Name="Aim1" Margin="10,30,10,0" Padding="3,3,3,3" Text="1)Να περιγράφουν επαγγέλματα στα αγγλικά."  BackgroundColor="Black"   TextTransform="None" TextColor="#fff" Font="20" />
+                    <Label x:Name="Aim2" Margin="10,0,10,0" Padding="3,3,3,3" Text="2)Να αναγνωρίζουν τα επαγγέλματα μέσα απο περιγραφές στα αγγλικά."  BackgroundColor="Black"   TextTransform="None" TextColor="#fff" Font="20" />
+                    <Label x:Name="Aim3" Margin="10,0,10,0" Padding="3,3,3,3" Text="3)Να εξηγούν τη σημασία κάποιων ιδιωματισμών που σχετίζονται με την εργασία."  BackgroundColor="Black"   TextTransform="None" TextColor="#fff" Font="20" />
+
+
+                </StackLayout>
+
+
+
+
+                <Button x:Name="Menu" Margin="0,20,0,20" VerticalOptions="EndAndExpand" HorizontalOptions="Center" Text="Επιστροφή στο Αρχικό Μενού" BackgroundColor="#025955"    TextTransform="None" TextColor="#fff" Font="Italic,15" Clicked="Menu_Clicked" />
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+   
+</ContentPage>

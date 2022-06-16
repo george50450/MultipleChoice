@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              BackgroundColor="#20333a"
+             x:Class="MultipleChoice.CorrectAnswers">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10,20,10,20">
+                <StackLayout  Orientation="Vertical" VerticalOptions="Start">
+                    <Label x:Name="Question1" Padding="3,3,3,3" Text="Ερώτηση 1" BackgroundColor="#535151"  TextTransform="None" TextColor="#fff" Font="Bold,20"/>
+                    <Label x:Name="Answer1" Margin="0,-5,0,0" Padding="3,3,3,3" Text="The correct answer is b) False. A vet helps sick animals. "  BackgroundColor="Black"   TextTransform="None" TextColor="#fff" Font="Italic,15" />
+                </StackLayout>
+
+                <StackLayout  Orientation="Vertical" VerticalOptions="Start" Padding="0,10,0,0">
+                    <Label x:Name="Question2" Padding="3,3,3,3" Text="Ερώτηση 2" BackgroundColor="#535151"  TextTransform="None" TextColor="#fff" Font="Bold,20"/>
+                    <Label x:Name="Answer2" Margin="0,-5,0,0" Padding="3,3,3,3" Text="The correct answer is a) True."  BackgroundColor="Black"   TextTransform="None" TextColor="#fff" Font="Italic,15" />
+                </StackLayout>
+
+                <StackLayout  Orientation="Vertical" VerticalOptions="Start" Padding="0,10,0,0">
+                    <Label x:Name="Question3" Padding="3,3,3,3" Text="Ερώτηση 3" BackgroundColor="#535151"  TextTransform="None" TextColor="#fff" Font="Bold,20"/>
+                    <Label x:Name="Answer3" Margin="0,-5,0,0" Padding="3,3,3,3" Text="The correct answer is c)."  BackgroundColor="Black"   TextTransform="None" TextColor="#fff" Font="Italic,15" />
+                </StackLayout>
+
+                <StackLayout  Orientation="Vertical" VerticalOptions="Start" Padding="0,10,0,0">
+                    <Label x:Name="Question4" Padding="3,3,3,3" Text="Ερώτηση 4" BackgroundColor="#535151"  TextTransform="None" TextColor="#fff" Font="Bold,20"/>
+                    <Label x:Name="Answer4" Margin="0,-5,0,0" Padding="3,3,3,3" Text="The correct answer is c)."  BackgroundColor="Black"   TextTransform="None" TextColor="#fff" Font="Italic,15" />
+                </StackLayout>
+
+                <StackLayout  Orientation="Vertical" VerticalOptions="Start" Padding="0,10,0,0">
+                    <Label x:Name="Question5" Padding="3,3,3,3" Text="Ερώτηση 5" BackgroundColor="#535151"  TextTransform="None" TextColor="#fff" Font="Bold,20"/>
+                    <Label x:Name="Answer5" Margin="0,-5,0,0" Padding="3,3,3,3" Text="The correct answer is a) True."  BackgroundColor="Black"   TextTransform="None" TextColor="#fff" Font="Italic,15" />
+                </StackLayout>
+
+                <StackLayout  Orientation="Vertical" VerticalOptions="Start" Padding="0,10,0,0">
+                    <Label x:Name="Question6" Padding="3,3,3,3" Text="Ερώτηση 6" BackgroundColor="#535151"  TextTransform="None" TextColor="#fff" Font="Bold,20"/>
+                    <Label x:Name="Answer6" Margin="0,-5,0,0" Padding="3,3,3,3" Text="The correct answer is a) True."  BackgroundColor="Black"   TextTransform="None" TextColor="#fff" Font="Italic,15" />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

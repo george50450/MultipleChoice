@@ -1,0 +1,12 @@
+﻿/ref:"C:\Users\gtkal\source\repos\MultipleChoice\MultipleChoice\MultipleChoice.UWP\obj\ARM\Release\ilc\intermediate\PreMergeILTransformed"
+/ref:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.native.sharedlibrary\2.2.7-rel-28605-00\tools\SharedLibrary\ret\AnalysisILToc"
+/ref:"C:\Users\gtkal\source\repos\MultipleChoice\MultipleChoice\MultipleChoice.UWP\obj\ARM\Release\ilc\intermediate\PreMergeILTransformed"
+/ref:"C:\Users\gtkal\source\repos\MultipleChoice\MultipleChoice\MultipleChoice.UWP\obj\ARM\Release\ilc\in\\"
+/ref:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.native.compiler\2.2.8-rel-28605-00\tools\ARM\ilc\lib\Private\\"
+/ref:"C:\Users\gtkal\source\repos\MultipleChoice\MultipleChoice\MultipleChoice.UWP\obj\ARM\Release\ilc\in"
+/ref:"C:\Users\gtkal\source\repos\MultipleChoice\MultipleChoice\MultipleChoice.UWP\obj\ARM\Release\ilc\in\WinMetadata"
+/ca:System.Private.CoreLib
+/cscpath:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\2.2.8-rel-28605-00\tools\csc"
+/out:"C:\Users\gtkal\source\repos\MultipleChoice\MultipleChoice\MultipleChoice.UWP\obj\ARM\Release\ilc\intermediate\SgGenerated\\"
+/int:"C:\Users\gtkal\source\repos\MultipleChoice\MultipleChoice\MultipleChoice.UWP\obj\ARM\Release\ilc\intermediate\MultipleChoice.UWP.Sg"
+"@C:\Users\gtkal\source\repos\MultipleChoice\MultipleChoice\MultipleChoice.UWP\obj\ARM\Release\ilc\intermediate\MultipleChoice.UWP.Sg\ComputedSerializationInput.txt"

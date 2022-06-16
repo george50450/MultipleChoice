@@ -1,0 +1,4 @@
+MainPackage=C:\Users\gtkal\source\repos\MultipleChoice\MultipleChoice\MultipleChoice.UWP\bin\ARM\Release\MultipleChoice.UWP_1.0.0.0_ARM.appx
+SymbolPackage=C:\Users\gtkal\source\repos\MultipleChoice\MultipleChoice\MultipleChoice.UWP\obj\ARM\Release\Symbols\MultipleChoice.UWP_1.0.0.0_ARM.appxsym
+ResourcePack=C:\Users\gtkal\source\repos\MultipleChoice\MultipleChoice\MultipleChoice.UWP\bin\ARM\Release\MultipleChoice.UWP_1.0.0.0_scale-100.appx
+ResourcePack=C:\Users\gtkal\source\repos\MultipleChoice\MultipleChoice\MultipleChoice.UWP\bin\ARM\Release\MultipleChoice.UWP_1.0.0.0_scale-400.appx
